@@ -15,7 +15,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div>
+    <div id="contact">
       <div className="flex flex-row justify-around shadow-xl mx-auto my-16">
         <div>
           <h2 className="mt-14 text-2xl font-semibold mb-5">

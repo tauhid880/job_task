@@ -6,7 +6,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 const Offerings = () => {
   return (
-    <div className="my-16">
+    <div className="my-16" id="ourofferings">
       <h1 className="text-3xl font-bold text-center mb-2">Our Offerings</h1>
       <div className="flex justify-center items-center mb-5">
         <hr className=" bg-gray-950 h-1 w-52" />

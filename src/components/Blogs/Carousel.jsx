@@ -12,7 +12,7 @@ function Carousel() {
   };
 
   return (
-    <div className="relative bg-[#F2F4F6] p-20 my-16">
+    <div id="blog" className="relative bg-[#F2F4F6] p-20 my-16">
       <div className="text-center py-4  text-xl font-bold">Blogs</div>
       <div className="flex justify-center items-center mb-5">
         <hr className=" bg-gray-950 h-1 w-16" />

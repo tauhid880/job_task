@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/Group 36901.png";
+import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <div className="mt-3">
@@ -30,7 +31,7 @@ const Navbar = () => {
                 <a>Home</a>
               </li>
               <li>
-                <a>Our Offerings</a>
+                <a href="">Our Offerings</a>
               </li>
               <li>
                 <a>Our Team</a>
@@ -50,19 +51,29 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link to="#home" smooth>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="">Our Offerings</a>
+              <Link to="#ourofferings" smooth>
+                Our Offerings
+              </Link>
             </li>
             <li>
-              <a>Our Team</a>
+              <Link to="#team" smooth>
+                Our Team
+              </Link>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link to="#contact" smooth>
+                Contact Us
+              </Link>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <Link to="#blog" smooth>
+                Blogs
+              </Link>
             </li>
           </ul>
         </div>
